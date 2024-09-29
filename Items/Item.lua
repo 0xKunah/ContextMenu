@@ -120,7 +120,6 @@ local function NewItem(menu, title)
 			if (self.OnActivate) then
 				while IsDisabledControlPressed(0, 24) do
 					Citizen.Wait(0)
-					print("ff")
 				end
 
 				self.OnActivate()
